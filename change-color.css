@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.div2 {
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn {
+    color: white;
+    font-weight: bold;
+}
+
+.btn-basic {
+    background-color: white;
+}
+
+.js-color {
+    font-size: 40px;
+}
+
+.btn-orange {
+    background-color: orange;
+}
+
+.btn-blueviolet {
+    background-color: blueviolet;
+}

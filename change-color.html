@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Color</title>
+    <link rel="shortcut icon" href="outils/icons8-cercle-rvb-96.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="change-color.css">
+</head>
+
+<body>
+
+    <div class="container mt-3 mb-3">
+        <h1>JavaScript Projects</h1>
+        <p>Change colors<img src="outils/icons8-mode-de-couleur.gif" width="30px" height="auto"></p>
+        <div class="div2">
+            <button class="js-black btn btn-dark" onclick="changeColor('black');">Black</button>
+            <button class="js-green btn btn-success" onclick="changeColor('green');">Green</button>
+            <button class="js-yellow btn btn-warning text-dark" onclick="changeColor('yellow');">Yellow</button>
+            <button class="js-red btn btn-danger" onclick="changeColor('red');">Red</button>
+            <button class="js-gray btn btn-secondary" onclick="changeColor('gray');"><span>Gray</span></button>
+            <button class="js-blue btn btn-primary" onclick="changeColor('blue');">Blue</button>
+            <button class="js-blue btn btn-info text-dark" onclick="changeColor('lightskyblue');">Light Blue</button>
+            <button class="js-blue btn btn-basic text-dark" onclick="changeColor('white');">White</button>
+            <button class="js-blue btn btn-orange text-dark" onclick="changeColor('orange');">Orange</button>
+            <button class="js-blue btn btn-blueviolet text-light" onclick="changeColor('blueviolet');">Blue
+                Violet</button>
+        </div>
+        <br>
+        <div class="js-color mt-5 mb-5">Basic color</div>
+    </div>
+    <script src="change-color.js"></script>
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
